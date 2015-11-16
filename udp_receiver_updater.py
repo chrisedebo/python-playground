@@ -177,8 +177,8 @@ def update_conf(requests, conf_dir):
 	locations = prepare_locations(canonical)
 	upstreams = prepare_upstreams(canonical)
 
-	locations_path = os.path.join(conf_dir, 'zorrillo-locations.conf')
-	upstreams_path = os.path.join(conf_dir, 'zorrillo-upstreams.conf')
+	locations_path = os.path.join(conf_dir, 'proxy-locations.conf')
+	upstreams_path = os.path.join(conf_dir, 'proxy-upstreams.conf')
 
 	locations_replaced = replace_file(locations, locations_path)
 	upstreams_replaced = replace_file(upstreams, upstreams_path)
