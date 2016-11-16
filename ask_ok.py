@@ -1,4 +1,4 @@
-#! /usr/bin/env python3.3
+#! /usr/bin/env python3.4
 def ask_ok(prompt,retries=4,complaint='Yes or no, please!'):
     while True:
         ok = input(prompt)
