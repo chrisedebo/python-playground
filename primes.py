@@ -1,4 +1,4 @@
-#! /usr/bin/env python3.3
+#! /usr/bin/env python3.4
 primes=[]
 nonprimes=[]
 for n in range(2,1000):
