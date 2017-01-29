@@ -30,3 +30,12 @@ print(jsondata)
 
 print(jsondata["timestamp"])
 print(jsondata["ticker"])
+
+import mysql.connector as mariadb
+dbhost="localhost"
+db="exchangenow"
+dbuser="exchangenow"
+dbpass="JwhV6Fzh9ySLU5Lq"
+
+mariadb.connect(user=dbuser,password=dbpass,database=db)
+
